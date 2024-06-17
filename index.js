@@ -21,10 +21,6 @@ const dogwifToken = document.getElementById("dogwifcap")
 const dogeToken = document.getElementById("dogecap")
 const flokiToken = document.getElementById("flokicap")
 const footer = document.querySelector(".logorodape")
-const articleTexto = document.querySelectorAll(".article")
-const btnPeguntar = document.querySelector(".ask")
-
-
 
 
 
@@ -93,24 +89,30 @@ var priceCoin = {
 
     
 
-
+/*
 
 let btnacess = 0;
-
 btnPeguntar.addEventListener('click', () => {
-  if(btnacess === articleTexto.length + 1){
+  if(btnacess === articleTexto.length - 1){
     btnacess = 0;
-  }else {
-    btnacess++
-    } 
+  }else{
+    btnacess ++
+    
+  } 
 
-  
+
   articleTexto.forEach((acessar) => {
     acessar.classList.remove('active');
     });
     articleTexto[btnacess].classList.add('active');
-    
+
+    });
+*/
+
+  
+  
+  
 
 
 
-  });
+

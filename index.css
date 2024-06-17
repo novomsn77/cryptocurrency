@@ -276,11 +276,11 @@ label {
   transition: 0.1s ease-in-out;
 }
 
-#ask1.active  {
+#ask1.active {
   background-color: #ffbb00;
 }
 
-#ask1:hover{
+#ask1:hover {
   background-color: #ffa600;
 }
 
@@ -435,27 +435,23 @@ footer {
   gap: 20px;
 }
 
-
-ul{
+ul {
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
-a:hover{
+a:hover {
   color: #ffa600;
 }
-
-
-
 
 .social-medias i {
   display: flex;
   text-align: right;
   color: #dadada;
-  transition: .15s ease-in-out;
+  transition: 0.15s ease-in-out;
 }
 
-.social-medias i:hover{
+.social-medias i:hover {
   color: #ffa600;
 }
 
@@ -488,25 +484,28 @@ a:hover{
   border-top: 1px solid #dadada17;
 }
 
- .article.active{
+.article.active {
   display: block;
 }
 
 .article {
-  display:none;
+  display: none;
 }
 
 /*RESPOSIVO 500PX*/
-@media (max-width: 540px) {
+@media (max-width: 360px) {
   .inforcripto {
     flex-direction: column-reverse;
   }
 
   .menu {
     display: flex;
-    width: 50%;
+    width: 30px;
   }
 
+  .menu a {
+    display: none;
+  }
   .ask {
     display: flex;
     flex-direction: column;
@@ -565,8 +564,10 @@ a:hover{
   }
 
   .inforcripto img {
-    width: 530px;
-  }
+    width: 340px;
+    height: 270px;
+    margin: auto;
+}
 
   .principaismoedas {
     flex-direction: column;
