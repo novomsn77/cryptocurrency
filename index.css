@@ -580,4 +580,10 @@ a:hover {
   .infor {
     flex-direction: column;
   }
+
+  .partnersbrands{
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 7px;
+  }
 }
