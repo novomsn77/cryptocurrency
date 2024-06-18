@@ -188,8 +188,8 @@ button {
   height: 95%;
   border-radius: 10px;
   text-align: center;
-  margin-top: 120px;
-  margin-bottom: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 1.5rem;
 }
 
@@ -424,12 +424,12 @@ footer {
 .logofooter {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .social-medias {
   display: flex;
   align-items: center;
-  width: 20%;
   font-size: 22px;
   justify-content: center;
   gap: 20px;
@@ -497,6 +497,26 @@ a:hover {
   .inforcripto {
     flex-direction: column-reverse;
   }
+  .infor > div {
+    height: 35px;
+    overflow: hidden;
+    transition: .2s all ease-in-out;
+}
+
+.infor > div:hover {
+  
+  height: 300px;
+  overflow: hidden;
+  
+}
+.infor > div {
+  margin-top: 0;
+}
+
+.infor h2 {
+  margin-bottom: 0;
+  font-weight: 500;
+}
 
   .menu {
     display: flex;
@@ -567,7 +587,7 @@ a:hover {
     width: 340px;
     height: 270px;
     margin: auto;
-}
+  }
 
   .principaismoedas {
     flex-direction: column;
@@ -577,13 +597,18 @@ a:hover {
   .moeda_first {
     width: 90%;
   }
+
   .infor {
     flex-direction: column;
+    gap: 6px;
   }
 
-  .partnersbrands{
-  display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 7px;
-  }
+  .social-medias {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    justify-content: center;
+    gap: 20px;
+    width: 30%;
+}
 }
