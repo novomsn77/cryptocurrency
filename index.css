@@ -577,4 +577,7 @@ a:hover {
   .moeda_first {
     width: 90%;
   }
+  .infor {
+    flex-direction: column;
+  }
 }
