@@ -493,7 +493,7 @@ a:hover {
 }
 
 /*RESPOSIVO 500PX*/
-@media (max-width: 360px) {
+@media (max-width: 480px) {
   .inforcripto {
     flex-direction: column-reverse;
   }
